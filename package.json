@@ -1,4 +1,5 @@
 {
+  "homepage": "http://gitname.github.io/currency-rates-spa",
   "name": "single-page-application",
   "version": "1.0.0",
   "description": "This is a project demo that uses Vanilla JS to build a Single Page Application.",
@@ -8,7 +9,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
