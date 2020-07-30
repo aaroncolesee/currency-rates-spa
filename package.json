@@ -1,8 +1,7 @@
 {
-  "homepage": "http://gitname.github.io/currency-rates-spa",
-  "name": "single-page-application",
+  "homepage": "http://aaroncolesee.github.io/currency-rates-spa",
+  "name": "currency-rates-spa",
   "version": "1.0.0",
-  "description": "This is a project demo that uses Vanilla JS to build a Single Page Application.",
   "main": "server.js",
   "directories": {
     "lib": "lib"
@@ -11,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -26,5 +25,13 @@
     "semantic-ui-calendar": "0.0.8",
     "semantic-ui-css": "^2.4.1",
     "vanilla-router": "^1.2.8"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaroncolesee/currency-rates-spa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aaroncolesee/currency-rates-spa/issues"
   }
 }
